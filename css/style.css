@@ -43,3 +43,9 @@ nav .nav-wrapper .right{
   align-items: center;
   justify-content: flex-end;
 }
+nav .nav-wrapper .right input{
+  padding: 11px;
+  border-radius: 35px;
+  border: none;
+  box-shadow: var(--shadow);
+}

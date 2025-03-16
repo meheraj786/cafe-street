@@ -67,6 +67,28 @@ nav .nav-wrapper .right input{
   position: relative;
   z-index: 0;
 }
+#banner .banner-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#banner .banner-wrapper .img{
+  width: 416px;
+  height: 416px;
+  background: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: relative;
+}
+
+#banner .banner-wrapper .img p:first-child{
+  left: 0;
+  top: 0;
+  color: white;
+}
+
 #banner .banner-product{
   position: absolute;
   width: 100%;

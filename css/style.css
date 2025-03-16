@@ -64,4 +64,32 @@ nav .nav-wrapper .right input{
   padding-top: 158px;
   padding-bottom: 396px;
   background: var(--accents);
+  position: relative;
+  z-index: 0;
+}
+#banner .banner-product{
+  position: absolute;
+  width: 100%;
+  bottom: -227px;
+}
+#banner .banner-product .container::after{
+  position: absolute;
+  content: "";
+  bottom: -87px;
+  width: 1160px;
+  height: 367px;
+  background: #F9D9AA;
+  border-radius: 64px;
+  z-index: -1;
+}
+#banner .banner-product .bp-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#banner .banner-product .bp-wrapper .card{
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
 }

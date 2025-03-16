@@ -12,6 +12,7 @@ ul li{
 }
 body{
   color: var(--secondary);
+  font-family: "Poppins", sans-serif;
 }
 :root{
   --primary: #FF902A;

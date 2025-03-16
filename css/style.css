@@ -26,7 +26,10 @@ body{
   margin: 0 auto;
 }
 nav{
-
+  position: absolute;
+  top: 36px;
+  z-index: 999;
+  width: 100%;
 }
 nav .nav-wrapper{
   display: flex;
@@ -49,4 +52,16 @@ nav .nav-wrapper .right input{
   border-radius: 35px;
   border: none;
   box-shadow: var(--shadow);
+}
+
+#banner{
+  padding-top: 158px;
+  padding-bottom: 396px;
+  background: var(--accents);
+  position: relative;
+}
+#banner{
+  padding-top: 158px;
+  padding-bottom: 396px;
+  background: var(--accents);
 }
